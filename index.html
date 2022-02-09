@@ -136,7 +136,6 @@
     /* style */
     .style{
       border-top: dashed 2px #d3d2d2;
-      border-bottom: solid 2px #d3d2d2;
       margin-top: 2px;
       padding: 30px;
       width: 100%;
@@ -155,10 +154,12 @@
     /* image buttons */
     .image-buttons{
       background-color: #f2f2f2;
-      padding: 30px 19px;
+      padding: 2px 0;
+      border-bottom: solid 2px #d3d2d2;
+      border-top: solid 2px #d3d2d2;
     }
     .image-buttons .col{
-      margin: 11px;
+      margin: 26px 20px;
       width: 259px;
     }
     .image-buttons img{
@@ -217,12 +218,13 @@
     }
     /* share */
     .footer{
-      padding: 30px;
+      padding: 20px 30px 30px;
       text-align: center;
       font-size: 10px;
     }
     .footer a{
       color: #333333;
+      text-decoration: none;
     }
     .footer .col{
       width: 200px;
@@ -249,6 +251,12 @@
     }
     .footer p{
       margin-bottom: 25px;
+    }
+    .dash-line{
+      width: 100%;
+    }
+    .dash-line td{
+      border-top: dashed 2px #d3d2d2;
     }
   </style>
 </head>
@@ -320,24 +328,25 @@
             </tr>
             <tr class="two-col">
               <td class="col" style="margin-bottom: 20px;">
-                <a href="#"><img src="./img/bag-01.jpg" alt="product" class="product"></a>
+                <a href="#" target="_blank"><img src="./img/bag-01.jpg" alt="product" class="product"></a>
               </td>
               <td class="col" style="margin-bottom: 20px;">
-                <a href="#"><img src="./img/bag-02.jpg" alt="product" class="product"></a>
+                <a href="#" target="_blank"><img src="./img/bag-02.jpg" alt="product" class="product"></a>
               </td>
             </tr>
             <tr class="two-col">
               <td class="col" style="margin-bottom: 20px;">
-                <a href="#"><img src="./img/bag-03.jpg" alt="product" class="product"></a>
+                <a href="#" target="_blank"><img src="./img/bag-03.jpg" alt="product" class="product"></a>
               </td>
               <td class="col" style="margin-bottom: 20px;">
-                <a href="#"><img src="./img/bag-04.jpg" alt="product" class="product"></a>
+                <a href="#" target="_blank"><img src="./img/bag-04.jpg" alt="product" class="product"></a>
               </td>
             </tr>
           </table>
           <!-- style -->
           <!-- image buttons -->
           <table class="image-buttons" width="100%">
+            <tr class="dash-line"><td></td></tr>
             <tr class="two-col">
               <td class="col">
                 <a href="#" target="_blank">
@@ -350,6 +359,7 @@
                 </a>
               </td>
             </tr>
+            <tr class="dash-line"><td></td></tr>
           </table>
           <!-- image buttons -->
           <!-- text -->
@@ -396,7 +406,7 @@
                     <img src="./img/instagram.png" alt="instagram icon">
                   </a>
                   <a href="#" target="_blank" class="social-icon">
-                    <img src="./img/twitter.png" alt="twitter icon">
+                    <img src="./img/twitter.png" style="width: 30px;height: 30px;transform: translateY(3px);" alt="twitter icon">
                   </a>
                   <a href="#" target="_blank" class="social-icon">
                     <img src="./img/youtube.png" alt="youtube icon">
